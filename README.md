@@ -1,1 +1,1 @@
-# Odin-Mango-Project
+Mango-Project
