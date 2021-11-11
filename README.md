@@ -12,9 +12,9 @@ Create index.html and add in the following tags
 * Add in `DODCTYPE` to top of index.html.
 * Add in `html` tags to the start and the end.
 * Add in `head` inside `html` tags.
- * Add in `meta` and `title`
+  * Add in `meta` and `title`
 * Add in `body` tags inside `html` but not inside `head`.
- * Add in `h1` tag inside `body` tag.
+  * Add in `h1` tag inside `body` tag.
 
 ## Installation
 
