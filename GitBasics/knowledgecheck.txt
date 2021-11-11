@@ -1,0 +1,28 @@
+Knowledge Check:
+
+1) To create a new repository we must go to Github.com -> Press the + Button -> Create a name 
+(optional: create the README.md file)
+
+2) To copy the repository we must get the SSH from Github.com -> and use the command "git clone <SSH here>"
+
+3) the default name is "origin git@github.com:minty-mango/Odin-Project-Mango.git"
+
+4) The name origin is the name of my remote connection. In this case we can specify which remote conneciton
+we want to push this too.
+
+5) "Main" in this case is which branch we want to make the changes to. In this case we only have the main branch
+called "main" so we push it to there.
+
+6) The two stages are: the staging area which can be like the waiting area for files to be committed to the main
+and the commit stage where we finally commit the changes or like taking the photo.
+
+7) git status
+
+8) git add <file name> or . for everything
+
+9) git commit -m "Message here."
+
+10) git push main or git push or git push origin main
+
+11) git log
+
