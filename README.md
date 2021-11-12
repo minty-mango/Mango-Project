@@ -28,6 +28,14 @@ Add in ordered and unordered list
 * Add in two unordered list
 * Add in two ordered list
 
+## Lesson 5
+
+Add in links and images to index.html.
+* Add in links with `a` tag.
+	* Add in attribute: `href`.
+* Add in images with `img` tag.
+	* Add in attributes: `src` and `alt`.
+
 ## Installation
 
 To use this you need the following steps:
