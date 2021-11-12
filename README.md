@@ -15,6 +15,12 @@ Create index.html and add in the following tags
   * Add in `meta` and `title`
 * Add in `body` tags inside `html` but not inside `head`.
   * Add in `h1` tag inside `body` tag.
+## Lesson 3
+
+Add in style elements and make index.html look like a blog.
+* Add in `strong` elements to show impact.
+* Add in `em` to show emphasis.
+* Work with the header tags to see different sized elements.
 
 ## Installation
 
