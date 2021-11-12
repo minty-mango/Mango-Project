@@ -22,6 +22,12 @@ Add in style elements and make index.html look like a blog.
 * Add in `em` to show emphasis.
 * Work with the header tags to see different sized elements.
 
+## Lesson 4
+
+Add in ordered and unordered list
+* Add in two unordered list
+* Add in two ordered list
+
 ## Installation
 
 To use this you need the following steps:
