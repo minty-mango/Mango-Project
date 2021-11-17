@@ -121,3 +121,60 @@ For this if you want to keep the size of the image to proportions you need to us
 
 ## The Cascade of CSS
 
+CSS declaration has precedence, meaning one rule might override another rule based on priority.
+
+1. ID Selectors
+2. Class Selectors
+3. Type Selectors
+4. Universal Selectors and Combinators
+
+In that order ID > Class > Type > Universal and Combinator.
+If there is a tie then the one that has more takes precedence.
+
+### Inheritance
+
+Refers to certain CSS properties that, when applied to an element, are inherited by the element's descendants. The exceptions to this is when directly targeting an element as this always beats inheritance.
+
+### Rule Order
+
+Basically the tie breaker. If there is ever any conflict with the rules then whatever was defined last is the winner.
+
+## Adding CSS to HTML
+
+Now we can finally work on adding CSS to HTMl. There is two ways:
+
+### External CSS
+External CSS is the most common method you will come across, and it involves creating a seperate file
+
+```html
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+
+### Internal CSS
+We add CSS to the HTML file itself instead of creating a seperate one.
+
+```html
+<head>
+    <style>
+        div {
+            color: white;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>...</body>
+```
+
+This is used to a _single page_ of a website.
+
+### Inline CSS 
+Makes it possible to add style directly to an HTML element.
+
+```html
+<body>
+    <div style="color: white; background-color: black;"></div>
+</body>
+```
